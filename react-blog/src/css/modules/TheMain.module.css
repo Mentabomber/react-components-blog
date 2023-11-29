@@ -12,13 +12,19 @@ main {
   @apply  h-[400px]  bg-[rgb(204,204,204)] 
   
 }
+.imgMain{
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
 .imgTitle{
   @apply text-[70px]
 }
 .box {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  padding: 12px;
+  padding: 20px;
   @apply text-left bg-white
 }
 .boxTitle{

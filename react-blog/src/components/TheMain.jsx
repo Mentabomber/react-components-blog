@@ -4,7 +4,8 @@ export default function Main(){
     return (
         <main>
             <div className={style.img}>
-                <h2 className={style.imgTitle}>600 x 400</h2>
+                <img className={style.imgMain} src="/imgs/download.png" alt="" />
+                {/* <h2 className={style.imgTitle}>600 x 400</h2> */}
             </div>
             <div className={style.box}>
                 <h3 className={style.boxTitle}>Titolo del Post</h3>
